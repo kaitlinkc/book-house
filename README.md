@@ -1,7 +1,7 @@
 ## Welcome to Kaitlin's book-house
 
 
-Go to [the Library](book-house/Library.html)
+Go to [the Library](/book-house/Library.html)
 
 You can use the [editor on GitHub](https://github.com/kaitlinkc/book-house/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
