@@ -25,9 +25,11 @@
           {% endif %}
         </ul>
         
-        <li><a class="buttons" href="{{ https://kaitlinkc.github.io/book-house/Library.html }}">Go to Home</a></li>
-        <li><a class="buttons" href="{{ /book-house/Library.html }}">Go to the book-house</a></li>
-        <li><a class="buttons" href="{{ /book-house/Library.html }}">Go to the book-store</a></li>
+        <ul>
+          <li><a class="buttons" href="{{ https://kaitlinkc.github.io/book-house/Library.html }}">Go to Home</a></li>
+          <li><a class="buttons" href="{{ /book-house/Library.html }}">Go to the book-house</a></li>
+          <li><a class="buttons" href="{{ /book-house/Library.html }}">Go to the book-store</a></li>
+        </ul>
 
         {% if site.github.is_user_page %}
           <ul>
@@ -41,7 +43,7 @@
       </section>
 
       <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme and modified by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</small></p>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme and modified by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
